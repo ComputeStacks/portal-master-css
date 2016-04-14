@@ -1,0 +1,49 @@
+.order-card-icon.active,
+.order-card.active,
+.order-card-icon.active:hover,
+.order-card.active:hover {
+  border:1px solid #1374a7;
+  // background-color: #f6f9f9;
+}
+.order-card-icon:hover {
+  border:1px solid #000;
+}
+.order-card-icon {
+  max-width:165px;
+  height:225px;
+  margin:15px auto;
+  border:1px solid #ddd;
+  text-align:center;
+  border-radius:4px;
+  padding:35px 5px;
+  cursor:pointer;
+  img {
+    max-width:100px;
+    margin-bottom:15px;
+  }
+  h3 {
+    font-size:16px;
+    color:#000;
+  }
+  i {
+    font-size:45px;
+    margin-bottom:10px;
+  }
+}
+.order-card {
+  max-width:165px;
+  margin:15px auto;
+  border:1px solid #ddd;
+  text-align:center;
+  border-radius:4px;
+  padding:25px 5px;
+  cursor:pointer;
+  h3 {
+    font-size:14px;
+    margin:0;
+    color:#000;
+  }
+}
+h3 a#add-node {
+  color:#000;
+}

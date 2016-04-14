@@ -1,0 +1,147 @@
+// body,html {
+//   font-family: "Roboto", sans-serif;
+// }
+
+// .modal {
+//   top: 20%;
+// }
+
+.list-group-title {
+  color: $gray-dark !important;
+}
+
+.event-log-spinner {
+  height:12px;
+  padding-bottom:1px;
+  vertical-align:middle;
+  padding-left:5px;
+}
+
+img#detectControlID {position: absolute; z-index:500;}
+.tooltip-inner {
+  font-size:11px;
+}
+.navbar-fixed-top {
+  opacity: 0.98;
+}
+#doc {
+  margin-bottom: 50px;
+}
+.alert {text-align:center;}
+.header-color {
+  width:100%;
+  height:3px;
+//  background-color: #008FD5;
+  background-color: rgb(190,66,48);
+  position: absolute;
+  z-index: 9999;
+}
+.header-admin-color {
+  width:100%;
+  height:22px;
+//  background-color: #008FD5;
+  background-color: rgb(190,66,48);
+  position: absolute;
+  z-index: 9999;
+  ul {
+    margin-left:20px;
+    li {
+      list-style:none;
+      display:inline;
+      padding-right: 20px;
+      a {
+        color:#fff;
+        font-size:12px;
+        font-weight:300;
+      }
+    }
+  }
+}
+.code-font,
+.code-font input,
+.code-font select {
+  font-size:14px;
+  font-family: $font-family-monospace;
+  color: #000;
+}
+.code-font-minimal {
+  font-size:14px;
+  font-family: $font-family-monospace;
+}
+.font-small input {
+  font-size:12px;
+}
+h1.title {
+//  color: #008FD5;
+  color: rgb(190,66,48);
+}
+
+
+table tr.table-footer {
+  // do something?
+}
+table.table-no-border tr th,
+table.table-no-border tr td {
+  border:none;
+}
+
+
+.list-group-item.disabled.skinny {
+  padding:5px 10px !important;
+}
+
+#doc-footer {
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding-top:0px;
+  background-color: #fff;
+  box-shadow:-3px 0 5px #999;
+  .row {
+    div {
+      font-size:11px;
+      color: #999;
+      font-weight: 300;
+      padding:5px 7px;
+    }
+    div a {
+      color: $brand-blue;
+      text-decoration: underline;
+    }
+    div a:hover {
+      //      color: #008FD5;
+      color: rgb(190,66,48);
+    }
+  }
+}
+
+.doc-footer-session {
+  z-index: 9999;
+}
+
+#doc-footer-admin {
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding-top:0px;
+  background-color: rgb(190,66,48);
+  box-shadow:-3px 0 5px #999;
+  .row {
+    div {
+      font-size:11px;
+      color: #fff;
+      font-weight: 300;
+      padding:5px 7px;
+    }
+    div a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    div a:hover {
+      //      color: #008FD5;
+      color: rgb(190,66,48);
+    }
+  }
+}

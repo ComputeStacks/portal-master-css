@@ -1,0 +1,16 @@
+th#device-current-state {
+  text-align:right;
+  vertical-align:middle;
+}
+#onapp-charts .highcharts-title {
+  display:none;
+}
+#onapp-charts .highcharts-container {
+  height: 300px !important;
+}
+#onapp-charts .chart:last-child {
+  display:none;
+}
+#device-power-control .list-group {
+  margin-top: 15px;
+}

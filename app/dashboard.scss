@@ -1,0 +1,58 @@
+// .nav-badge {
+//   position:absolute;
+//   z-index:0;
+//   margin-left:63px;
+//   margin-top:-2px;
+//   span {
+//     font-size:10px;
+//     font-weight:400;
+//     background-color:#f89406;
+//     border-radius:100px;
+//     padding:2px 4px;
+//     color:#fff;
+//   }
+// }
+
+// .label {
+//   font-weight:400;
+// }
+// .label-info {
+//   background-color: #008FD5; // Lumous Blue
+// }
+.label-inverse {
+  background-color: $label-inverse-bg;
+}
+.label-a {
+  background-color: #333333; // Grey
+}
+.label-b {
+  background-color: #e9b90f; // Yellow'ish
+}
+.label-c {
+  background-color: #6423b3; // purple
+  // background-color: #c52115; // Red'ish / Orange'ish
+}
+.label-d {
+  background-color: #44b298; // Aqua
+}
+// .label a {
+//   color:#fff !important;
+//   text-decoration: none;
+// }
+// .label a:hover {
+//   text-decoration: underline;
+// }
+//
+// table.dash-table tr {
+//   td {
+//     vertical-align: middle;
+//     font-weight:300;
+//   }
+//   td:last-child {
+//     text-align: right;
+//   }
+// }
+
+ul.unstyled-plus li {
+  padding-left:20px;
+}

@@ -1,0 +1,65 @@
+textarea.ticket-comment-box-editor {
+  font: 16px/1.5 $font-family-monospace;
+  color:#000;
+}
+.ticket-comment-wrapper {
+  border:1px solid #f5f5f5;
+  border-radius: 5px;
+  margin-bottom:20px;
+  .ticket-comment {
+    padding:10px 15px;
+    .ticket-comment-body {
+      // font: 13px Monaco, Menlo, Consolas, "Courier New", monospace;
+      font: 16px/1.5 $font-family-monospace;
+      color:#000;
+      li {
+        list-style: none;
+      }
+    }
+  }
+  .ticket-comment-header {
+    width:100%;
+    background-color: #f5f5f5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    .ticket-comment-date {
+      padding:5px 10px;
+      position: relative;
+      z-index:10;
+      float:right;
+      color:#555;
+      font-weight:300;
+      font-size:12px;
+    }
+    .ticket-comment-author {
+      padding:5px 10px;
+      font-weight:500;
+    }
+  }
+}
+ul.ticket-properties {
+  margin-top:15px;
+  margin-left:0px;
+  li {
+    font-weight:300;
+    font-size:16px;
+    list-style: none;
+    margin-bottom: 10px;
+    strong {
+      color:#555;
+      font-size:11px;
+    }
+  }
+}
+.ticket-pending {
+  color: #fff;
+  // background-color: #e9b90f;
+  background-color: #c52115;
+}
+.ticket-open {
+  color: #fff;
+  background-color: #008FD5;
+}
+.ticket-resolved {
+  background-color: #468847;
+}

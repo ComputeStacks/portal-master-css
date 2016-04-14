@@ -1,0 +1,76 @@
+div.device-autoscale {
+  border:1px solid #ddd;
+  border-radius:5px;
+  height:320px;
+  margin-bottom: 20px;
+  div.device-autoscale-section-title {
+    background-color:#f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    div.autoscale-nav {
+      position:relative;
+      float:right;
+      input.autoscale-enable {
+        display: none;
+      }
+      a.scale_enable {
+        margin-top:-3px;
+      }
+    }
+  }
+  div.device-autoscale-resource-item {
+    margin-bottom: 10px;
+    div.device-autoscale-resource-title {
+      margin-bottom:20px;
+      font-weight:500;
+      font-size:18px;
+      div.resource-price {
+        position:relative;
+        float:right;
+        font-weight:300;
+      }
+      div.resource-unit {
+        position:absolute;
+        margin-left:125px;
+      }
+    }
+    .cslider {
+      // background:#333;
+      // height:15px;
+      // position:relative;
+      // cursor:pointer;
+      // border:1px solid #333;
+      // width:390px;
+      // margin-top:10px;
+      // border-radius: 5px;
+      // box-shadow: inset 0 0 8px #555;
+      background:#f9f9f9;
+      height:15px;
+      position:relative;
+      cursor:pointer;
+      border:1px solid #ddd;
+      width:100%;
+      margin-top:10px;
+      border-radius: 10px;
+    }
+    input.range {
+      font-size:14px;
+      border:1px solid #ddd;
+      border-radius: 5px;
+      padding:3px 0;
+      text-align:center;
+      margin-top:-60px;
+      margin-left: 65px;
+      width:50px;
+      color: #000;
+      position: absolute;
+    }
+  }
+  div#memory-error,
+  div#disk-error {
+    color: red;
+    position: absolute;
+    margin-top:-45px;
+    margin-left:10px;
+  }
+}

@@ -1,0 +1,38 @@
+div.static-modal {
+  position: static;
+  left:0;
+  top:0;
+  margin:0 auto;
+  .modal-body {
+    max-height: 550px;
+  }
+}
+
+div#order-confirmation-modal {
+  margin-top:15px;
+  width:75% !important;
+}
+
+.order-os-image {
+  position:absolute;
+  z-index:15;
+  margin-top:3%;
+  width:93%;
+  text-align: center;
+  img {
+    opacity:0.1;
+    filter: alpha(opacity=10);
+  }
+}
+.order-wrapper {
+  padding-top:15px;
+  border-bottom:1px solid #ddd;
+  padding-bottom:5px;
+  margin-bottom:10px;
+}
+.order-wrap-border {
+  border-top:1px solid #ddd;
+}
+#order-show-submit-btn {
+  float:right;
+}
