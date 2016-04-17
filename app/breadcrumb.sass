@@ -3,8 +3,40 @@
 .row.has-breadcrumb
   margin-top: -20px
 
-ol.breadcrumb
+.breadcrumb
   padding-left: 30px
 
+.breadcrumb-action
+  text-transform: uppercase
+
 .breadcrumb-action > li + li:before
-  content: "\2022  "
+  content: "  "
+  // content: "\2022  "
+
+// Sub Menu Pills. Left side
+.sub-menu-pills > li + li
+  margin-left: 0px
+
+.sub-menu-pills > li
+  padding-top: 3px
+
+.sub-menu-pills > li > a
+  border-radius: 0px
+  font-size: 11px
+  text-transform: uppercase
+
+.sub-menu-pills > li.active > a
+  color: $link-color
+  background-color: $breadcrumb-bg
+  border-bottom: 1px $primary-nav-color solid
+
+// Hover
+.sub-menu-pills > li > a:hover
+  color: $link-color
+  background-color: $breadcrumb-bg
+  border-bottom: 1px $brand-primary solid
+
+.sub-menu-pills > li.active > a:hover
+  color: $link-color
+  background-color: $breadcrumb-bg
+  border-bottom: 1px $primary-nav-color solid
