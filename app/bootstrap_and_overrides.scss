@@ -27,6 +27,20 @@ body.has-nav {
   background-color: $label-danger-bg;
   color: $label-color;
 }
+.form-label-caps {
+  font-size: 12px;
+  font-weight:300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#tag-manager .panel-inverse > .panel-heading {
+  background-color: #000;
+  color: #fff;
+}
+.label-gray {
+  background-color: #ccc;
+  color: #333;
+}
 // a .label:hover {
 //   opacity: 0.8;
 // }
@@ -148,4 +162,8 @@ body.has-nav {
     content: "" !important;
     padding: 0;
     color: #ccc;
+}
+
+h4.panel-title-large {
+  font-size:24px;
 }

@@ -33,6 +33,32 @@ div#order-confirmation-modal {
 .order-wrap-border {
   border-top:1px solid #ddd;
 }
-#order-show-submit-btn {
-  float:right;
+
+.order-item {
+  float:left;
+  padding-bottom:10px;
+  width:100%;
+}
+.order-item-description {
+  font-weight:500;
+  font-size:24px;
+  margin-top:-10px;
+}
+#order-children {
+  padding-top:10px;
+  padding-bottom:10px;
+  width:100%;
+}
+.order-child-table {
+  width: 100%;
+}
+.order-child-table-item {
+  padding-left:20px;
+}
+.order-footer-message {
+  margin-top:15px;
+  color: #444;
+}
+.order-footer-message em {
+  font-size:11px;
 }
