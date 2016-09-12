@@ -1,5 +1,10 @@
 # Stylesheets for ComputeStacks Cloud Portal
 
+## Image Formats
+Login Logo: 200 x 100 (W x H)
+In-App Nav Bar: Max height of 32px. Width can be any size, but should not exceed 260px.
+In-App Admin Nav Bar: Same as above.
+
 ## How to customize
 Make your changes in `theme/vars.scss`
 
