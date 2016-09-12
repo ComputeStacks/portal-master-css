@@ -420,7 +420,7 @@ input[type="checkbox"],
 
     &:hover {
       background-color: transparent;
-      @include box-shadow(inset 0 -2px 0 $brand-primary);
+      @include box-shadow(inset 0 -2px 0 $nav-tabs-bottom-line);
       // color: $brand-primary;
       color: $nav-tabs-active-link-hover-color;
     }
@@ -429,7 +429,7 @@ input[type="checkbox"],
   & > li.active > a,
   & > li.active > a:focus {
     border: none;
-    @include box-shadow(inset 0 -2px 0 $brand-primary);
+    @include box-shadow(inset 0 -2px 0 $nav-tabs-bottom-line);
     // color: $brand-primary;
     color: $nav-tabs-active-link-hover-color;
 
