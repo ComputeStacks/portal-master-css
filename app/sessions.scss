@@ -9,3 +9,11 @@ html.login-page .container-fluid {
 .countries-input {
   width:100%;
 }
+
+#loginModal .modal-header,
+#logoutModal .modal-header {
+  background-color: $modal-session-header-bg;
+  .modal-title {
+    color: $modal-session-header-color;
+  }
+}
