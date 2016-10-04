@@ -6,6 +6,10 @@
 //   top: 20%;
 // }
 
+a.navbar-brand {
+  background-color: $navbar-inverse-brand-background !default;
+}
+
 .list-group-title {
   color: $gray-dark !important;
 }
