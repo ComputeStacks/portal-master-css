@@ -47,3 +47,21 @@
 h3 a#add-node {
   color:#000;
 }
+.container-order-card {
+  cursor: pointer;
+}
+.container-order-card:hover {
+  box-shadow: 0 1px 4px rgba(0,0,0,1.0);
+}
+.container-order-card.active {
+  box-shadow: 0 1px 4px darken($brand-primary, 50%);
+  background-color: $brand-primary;
+  color: #fff;
+}
+.container-price-badge {
+  margin-top:-10px;
+  margin-right:-6px;
+  font-size:0.8em;
+  font-weight:400;
+  letter-spacing:0.1em;
+}

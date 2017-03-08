@@ -20,7 +20,7 @@ First, make sure you have the following installed:
 
 Then run the following command:
 
-    sass -r sass-globbing -t compressed application.css.scss src/application-${VERSION}.css
+    sass -r sass-globbing -t compressed application.css.scss src/application-0.css
 
 
 ###Example:
