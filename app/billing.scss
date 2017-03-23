@@ -1,0 +1,113 @@
+div#invoice-table {
+  margin-top:50px;
+}
+div#invoice-table table thead tr {
+  background-color: #f9f9f9;
+}
+div#invoice-table table tbody tr.invoice-footer {
+  background-color: #f9f9f9;
+  font-size: 16px;
+  th {
+    text-align: right;
+  }
+  td {
+    text-align: right;
+    font-family: $font-family-monospace;
+  }
+}
+div#invoice-activity-log {
+  margin-top:50px;
+}
+div#invoice-activity-log h4 {
+  color:#999;
+  margin-top:0;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+div#invoice-activity-log .log-item {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  font-size:12px;
+}
+div#invoice-activity-log .log-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+div#invoice-activity-log .log-item-message {
+  float: left;
+}
+div#invoice-activity-log .log-item-meta {
+  text-align: right;
+  float: right;
+  color:#777;
+  font-weight: 300;
+}
+
+table.invoice-details th {
+  font-size:11px;
+}
+table.invoice-details td {
+  font-size:18px;
+  font-family: $font-family-monospace;
+}
+#invoice-meta {
+  margin-top:5px;
+  padding-bottom:20px;
+}
+#invoice-meta .invoice-meta-detail {
+  font-size:18px;
+  font-family: $font-family-monospace;
+}
+table.invoice-company-data tr td {
+  text-align:right;
+}
+.pagination {
+  background: white;
+  cursor: default;
+  /* self-clearing method: */ }
+  .pagination a, .pagination span, .pagination em {
+    padding: 0.2em 0.5em;
+    display: block;
+    float: left;
+    margin-right: 1px; }
+  .pagination .disabled {
+    color: #999999;
+    border: 1px solid #dddddd; }
+  .pagination .current {
+    font-style: normal;
+    font-weight: bold;
+    background: #008FD5;
+    color: white;
+    border: 1px solid #008FD5; }
+  .pagination a {
+    text-decoration: none;
+    color: #105cb6;
+    border: 1px solid #9aafe5; }
+    .pagination a:hover, .pagination a:focus {
+      color: #000033;
+      text-decoration: none;
+      border-color: #000033; }
+  .pagination .page_info {
+    background: #008FD5;
+    color: white;
+    padding: 0.4em 0.6em;
+    // width: 22em;
+    margin-bottom: 0.3em;
+    text-align: center; }
+    .pagination .page_info b {
+      color: #000033;
+      background: #6aa6ed;
+      padding: 0.1em 0.25em; }
+  .pagination:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  * html .pagination {
+    height: 1%; }
+  *:first-child + html .pagination {
+    overflow: hidden; }

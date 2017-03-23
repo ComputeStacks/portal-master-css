@@ -65,3 +65,32 @@ h3 a#add-node {
   font-weight:400;
   letter-spacing:0.1em;
 }
+
+.container-panel {
+  cursor: pointer;
+}
+.container-panel:hover {
+  box-shadow: 0 1px 4px darken($brand-primary, 50%);
+}
+.deployment-overview-sub {
+  border-top:1px solid #e4e6e6;
+  border-bottom: 1px solid #e4e6e6;
+  padding: 10px 0;
+}
+.deployment-overview-sub-header {
+  font-weight:500;
+  color:#555;
+  font-size:11px;
+  margin-top:-3px;
+}
+.deployment-overview-sub-content {
+  font-weight:300;
+  font-size:14px;
+  margin-top:-3px;
+  margin-bottom:-3px;
+}
+
+.terminal-view {
+  background-color:#333;
+  color:#e4e6e6;
+}
