@@ -1,6 +1,6 @@
 textarea.ticket-comment-box-editor {
-  font: 16px/1.5 $font-family-monospace;
-  color:#000;
+  font: 14px/1.5 $font-family-base;
+  color:#555;
 }
 .ticket-comment-wrapper {
   border:1px solid #f5f5f5;
@@ -10,8 +10,8 @@ textarea.ticket-comment-box-editor {
     padding:10px 15px;
     .ticket-comment-body {
       // font: 13px Monaco, Menlo, Consolas, "Courier New", monospace;
-      font: 16px/1.5 $font-family-monospace;
-      color:#000;
+      font: 14px/1.5 $font-family-base;
+      color:#333;
       li {
         list-style: none;
       }
