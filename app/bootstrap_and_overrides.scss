@@ -159,7 +159,7 @@ body.has-nav {
 // END Left Tabs
 
 .breadcrumb > li + li.no-spacer:before {
-    content: "" !important;
+    content: '  ' !important;
     padding: 0;
     color: #ccc;
 }
