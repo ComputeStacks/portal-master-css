@@ -89,6 +89,12 @@ table.table-no-border tr td {
   border:none;
 }
 
+table.table-list { width: 100%; }
+table.table-list tr td { padding: 0 15px; }
+table.table-list tr:first-child td { padding-top: 10px; }
+table.table-list tr:last-child td { padding-bottom: 8px; }
+table.table-list tr td:last-child { font-weight: bold; text-align: right; }
+
 
 .list-group-item.disabled.skinny {
   padding:5px 10px !important;
