@@ -17,7 +17,7 @@
 
   &-inverse {
     .form-control {
-      color: #fff;
+      color: $navbar-inverse-input-color;
       @include placeholder($navbar-inverse-link-color);
 
       &[type=text],
