@@ -8,7 +8,7 @@ In-App Admin Nav Bar: Same as above.
 ## How to customize
 If we have already setup a unique git repo for you, clone from that using `git clone <url>`. Otherwise, clone our master repo and create your own repository with:: 
 
-  1. `git clone -o master https://github.com/ComputeStacks/portal-master-css.git computestacks-css`
+  1. `git clone -o upstream https://github.com/ComputeStacks/portal-master-css.git computestacks-css`
   2. `git remote add origin <your new git repo> && git push --set-upstream origin master`
 
 Make your changes in `theme/vars.scss`
